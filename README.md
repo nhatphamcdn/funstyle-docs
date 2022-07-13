@@ -1,0 +1,11 @@
+## Architecture Conventions
+----
+- Components
+  - layouts: (layout folder should be include layout component ex: Header, Sidebar,  Footer,....)
+    - LayoutComponentName.vue
+  - themes: (modules folder should be include the base components ex: card, button, form...
+    - ThemeComponentName.vue
+  - modules: (modules folder should be include the specific component only config and handle on the specific screen)
+    - ModuleComponentName.vue)
+----
+- Update in progress... 
