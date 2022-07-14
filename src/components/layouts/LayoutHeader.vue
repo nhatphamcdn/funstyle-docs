@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import IconGitHub from '@/components/themes/icons/IconGitHub.vue';
+import IconGithub from '@/components/themes/icons/IconGithub.vue';
 </script>
 <template>
   <header>
@@ -19,7 +19,7 @@ import IconGitHub from '@/components/themes/icons/IconGitHub.vue';
           </li>
           <li class="mx-2 d-flex">
             <a href="#" class="d-flex align-items-center">
-              <IconGitHub />
+              <IconGithub />
             </a>
           </li>
           |
