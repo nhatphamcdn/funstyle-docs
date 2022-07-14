@@ -4,4 +4,9 @@ export default [
     name: 'home',
     path: '/',
   },
+  {
+    component: () => import('@/views/Guide.vue'),
+    name: 'guide',
+    path: '/guide',
+  },
 ]

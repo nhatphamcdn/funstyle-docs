@@ -1,0 +1,14 @@
+// Implement the helper and mixin functions in the funsyle package
+
+// grid-breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+) !default;
+
+@import "@nhatphamfks-org/funstyle/scss/theme/helpers/breakpoints";
+@import "@nhatphamfks-org/funstyle/scss/theme/mixins/breakpoints";

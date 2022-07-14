@@ -1,12 +1,17 @@
 <script setup lang="ts">
+import LayoutHeader from '@/components/layouts/LayoutHeader.vue';
+import LayoutFooter from '@/components/layouts/LayoutFooter.vue';
+import '@nhatphamfks-org/funstyle/css/funstyle.min.css';
 </script>
 
 <template>
-  <router-view></router-view>
+  <LayoutHeader />
+  <main>
+    <router-view></router-view>
+  </main>
+  <LayoutFooter />
 </template>
 
 <style lang="scss">
-h1 {
-  color: #ff0000;
-}
+// @import '@/assets/scss/main.scss';
 </style>
