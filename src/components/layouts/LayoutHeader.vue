@@ -6,9 +6,9 @@ import IconGithub from '@/components/themes/icons/IconGithub.vue';
     <div class="container">
       <nav class="d-flex justify-content-center justify-content-md-between align-items-center">
         <h1 class="reset-typography-space d-none d-md-block">
-          <a class="logo" href="#">
+          <router-link class="logo" to="/">
             #funstyle
-          </a>
+          </router-link>
         </h1>
         <ul class="d-flex">
           <li class="mx-2">
