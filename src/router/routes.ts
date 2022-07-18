@@ -8,6 +8,7 @@ export default [
     component: () => import('@/views/Guide.vue'),
     name: 'guide',
     path: '/guide',
+    redirect: '/guide/introduction',
     children: [
       {
         name: 'introduction',
