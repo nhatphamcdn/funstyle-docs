@@ -36,9 +36,18 @@ import IconGithub from '@/components/themes/icons/IconGithub.vue';
 </template>
 
 <style lang="scss" scoped>
+.router-link-active {
+  color: var(--fs-primary-hover);
+}
 header {
   height: 65px;
   line-height: 65px;
+
+  a {
+    &:focus {
+      --fs-background-color: transparent;
+    }
+  }
 }
 
 .logo {

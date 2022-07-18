@@ -12,9 +12,11 @@
     "vue-router": "^4.1.2"
   },
   "devDependencies": {
+    "@highlightjs/vue-plugin": "^2.1.0",
     "@nhatphamfks-org/funstyle": "^1.0.0",
     "@types/node": "^18.0.3",
     "@vitejs/plugin-vue": "^2.3.3",
+    "highlight.js": "^11.6.0",
     "sass": "^1.53.0",
     "typescript": "^4.5.4",
     "vite": "^2.9.9",

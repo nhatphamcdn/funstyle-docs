@@ -19,7 +19,7 @@
               <code>
                 npm i @nhatphamfks-org/funstyle
               </code>
-              <a href="#" role="button" class="ml-md-2 mt-4 mt-md-0">Get started</a>
+              <router-link to="/guide/introduction" role="button" class="ml-md-2 mt-4 mt-md-0">Get started</router-link>
             </div>
           </div>
         </div>

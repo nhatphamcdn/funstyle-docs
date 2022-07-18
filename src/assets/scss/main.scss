@@ -6,9 +6,3 @@ $primary: #0dcaf0;
   --fs-primary: #{$primary};
   --fs-primary-hover: #{$primary};
 }
-
-a {
-  &:focus {
-    --fs-background-color: transparent;
-  }
-}
