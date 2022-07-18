@@ -18,7 +18,7 @@ import IconGithub from '@/components/themes/icons/IconGithub.vue';
             <a href="#">Examples</a>
           </li>
           <li class="mx-2 d-flex">
-            <a href="#" class="d-flex align-items-center">
+            <a href="https://github.com/nhatphamcdn/funstyle" target="_blank" class="d-flex align-items-center">
               <IconGithub />
             </a>
           </li>
