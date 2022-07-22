@@ -16,7 +16,7 @@
         Create a new file <code>index.html</code> and add css link to stylesheet.
       </p>
         
-      <highlightjs language="html" code="
+      <highlightjs language="xml" code="
   &lt;!doctype html&gt;
   &lt;html lang=&quot;en&quot;&gt;
     &lt;head&gt;
